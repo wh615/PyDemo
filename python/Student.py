@@ -22,6 +22,14 @@ class Student(object):
 
         return address,city;
 
+    def __str__(self):
+        return 'Student info (name %s)' %self.name
+
+    __repr__=__str__;
+
+    def __call__(self):
+        print('My name is %s.' % self.name)
+
 # bar=Student('lisi',20);
 # print(bar.name)
 # print(bar.age)

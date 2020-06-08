@@ -39,7 +39,7 @@ Hash objects have these methods:
 For example, to obtain the digest of the string 'Nobody inspects the
 spammish repetition':
 
-    >>> import hashlib
+    import hashlib
     >>> m = hashlib.md5()
     >>> m.update(b"Nobody inspects")
     >>> m.update(b" the spammish repetition")

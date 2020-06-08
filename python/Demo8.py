@@ -25,3 +25,7 @@ print(stu3.age)
 print(stu3.name)
 ##禁止stu3添加额外的属性
 #print(stu3.address)
+print(s.__str__())
+print(s.__repr__())
+
+print(s())
