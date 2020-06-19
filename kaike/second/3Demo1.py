@@ -3,6 +3,7 @@
 # （MacOS环境下需要输入pip3 install BeautifulSoup4）我们的在线学习环境已经安装好了，可以直接使用
 
 #安装失败可以使用  pip install bs4 -i https://pypi.douban.com/simple
+# pip install openpyxl -i https://pypi.douban.com/simple
 
 import requests
 from bs4 import BeautifulSoup
