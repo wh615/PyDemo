@@ -1,30 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aab183d-ba01-45be-ba00-3102fc4aec6d" name="Default" comment="python数据分析相关案例">
-      <change afterPath="$PROJECT_DIR$/kaike/first/0/Demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/0/Demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/0/Demo3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/0/Demo4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/1/Demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/2/Demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/3/Demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/4/Demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/6/Demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/6/Demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/6/Demo3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/7/Demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/7/Demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/7/Demo3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/7/Demo4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/8/Demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/8/Demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/8/Demo3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaike/first/8/Demo4.py" afterDir="false" />
+    <list default="true" id="2aab183d-ba01-45be-ba00-3102fc4aec6d" name="Default" comment="python课堂练习整理">
+      <change afterPath="$PROJECT_DIR$/kaike/first/0/Demo5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/0/Demo6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/0/Demo7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/10/Demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/10/Demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/5/Demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/5/Demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/9/Demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/9/Demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/first/9/Demo3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaike/second/demo/Demo1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaike/first/4/Demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaike/first/4/Demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/importlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/importlib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/importlib/_bootstrap_external.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/importlib/_bootstrap_external.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +139,29 @@
       <recent name="D:\dev-project\py\PyDemo\kaike\second" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Demo4 (1)">
+  <component name="RunManager" selected="Python.Demo2 (1)">
+    <configuration name="Demo1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/10/Demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,12 +170,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/8/Demo1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/9/Demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/10/Demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,12 +214,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/8/Demo2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/9/Demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,56 +236,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/8/Demo3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Demo4 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/8/Demo4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Demo4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaike/first/7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/7/Demo4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaike/first/9/Demo3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,19 +251,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Demo4" />
       <item itemvalue="Python.Demo1" />
       <item itemvalue="Python.Demo2" />
       <item itemvalue="Python.Demo3" />
-      <item itemvalue="Python.Demo4 (1)" />
+      <item itemvalue="Python.Demo1 (2)" />
+      <item itemvalue="Python.Demo2 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Demo4 (1)" />
-        <item itemvalue="Python.Demo3" />
+        <item itemvalue="Python.Demo2 (1)" />
+        <item itemvalue="Python.Demo1 (2)" />
         <item itemvalue="Python.Demo2" />
+        <item itemvalue="Python.Demo3" />
         <item itemvalue="Python.Demo1" />
-        <item itemvalue="Python.Demo4" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +282,9 @@
       <workItem from="1592540335472" duration="89394000" />
       <workItem from="1593139475804" duration="831000" />
       <workItem from="1593351090313" duration="5477000" />
-      <workItem from="1593827457530" duration="6568000" />
+      <workItem from="1593827457530" duration="9706000" />
+      <workItem from="1594552227542" duration="295000" />
+      <workItem from="1595120833692" duration="4128000" />
     </task>
     <task id="LOCAL-00001" summary="python基础语法练习">
       <created>1591543775413</created>
@@ -358,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592993560912</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="python课堂练习整理">
+      <created>1593838521870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593838521870</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,17 +369,18 @@
     <MESSAGE value="python爬虫相关案例" />
     <MESSAGE value="python爬虫项目" />
     <MESSAGE value="python数据分析相关案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="python数据分析相关案例" />
+    <MESSAGE value="python课堂练习整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="python课堂练习整理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592667670668">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.832@0.0.1536.832" timestamp="1592667670668" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1592993558007">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1593838518392">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592993558007" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1593838518392" />
     <state x="93" y="93" width="1350" height="646" key="DiffContextDialog" timestamp="1592581350803">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -390,46 +389,46 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="954" y="178" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1592580851878" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1593836421663">
+    <state width="1114" height="286" key="GridCell.Tab.0.bottom" timestamp="1595124257513">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1593836421663" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1593836421662">
+    <state width="1114" height="286" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1595124257513" />
+    <state width="1114" height="286" key="GridCell.Tab.0.center" timestamp="1595124257512">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1593836421662" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1593836421662">
+    <state width="1114" height="286" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1595124257512" />
+    <state width="1114" height="286" key="GridCell.Tab.0.left" timestamp="1595124257512">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1593836421662" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1593836421662">
+    <state width="1114" height="286" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1595124257512" />
+    <state width="1114" height="286" key="GridCell.Tab.0.right" timestamp="1595124257513">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1593836421662" />
-    <state width="1493" height="291" key="GridCell.Tab.1.bottom" timestamp="1593830917140">
+    <state width="1114" height="286" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1595124257513" />
+    <state width="1114" height="286" key="GridCell.Tab.1.bottom" timestamp="1595124257513">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1593830917139" />
-    <state width="1493" height="291" key="GridCell.Tab.1.center" timestamp="1593830917138">
+    <state width="1114" height="286" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1595124257513" />
+    <state width="1114" height="286" key="GridCell.Tab.1.center" timestamp="1595124257513">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1593830917138" />
-    <state width="1493" height="291" key="GridCell.Tab.1.left" timestamp="1593830917137">
+    <state width="1114" height="286" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1595124257513" />
+    <state width="1114" height="286" key="GridCell.Tab.1.left" timestamp="1595124257513">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1593830917137" />
-    <state width="1493" height="291" key="GridCell.Tab.1.right" timestamp="1593830917138">
+    <state width="1114" height="286" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1595124257513" />
+    <state width="1114" height="286" key="GridCell.Tab.1.right" timestamp="1595124257513">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1593830917138" />
+    <state width="1114" height="286" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1595124257513" />
     <state x="270" y="61" key="SettingsEditor" timestamp="1592656939602">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="270" y="61" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1592656939602" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1592993563111">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1593838533471">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1592993563111" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1593838533471" />
     <state x="549" y="150" key="VcsDiffUtil.ChangesDialog" timestamp="1592563329610">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -489,7 +488,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyDemo$11Demo3.coverage" NAME="11Demo3 Coverage Results" MODIFIED="1592657796533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$7Demo2.coverage" NAME="7Demo2 Coverage Results" MODIFIED="1592568938982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
-    <SUITE FILE_PATH="coverage/PyDemo$Demo5.coverage" NAME="Demo5 Coverage Results" MODIFIED="1592983514973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/three/14" />
+    <SUITE FILE_PATH="coverage/PyDemo$Demo5.coverage" NAME="Demo5 Coverage Results" MODIFIED="1595121356979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/0" />
     <SUITE FILE_PATH="coverage/PyDemo$14Demo1.coverage" NAME="14Demo1 Coverage Results" MODIFIED="1592714445305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$8Demo1.coverage" NAME="8Demo1 Coverage Results" MODIFIED="1592573120631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$10Demo4.coverage" NAME="10Demo4 Coverage Results" MODIFIED="1592643441161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
@@ -499,8 +498,8 @@
     <SUITE FILE_PATH="coverage/PyDemo$10Demo1.coverage" NAME="10Demo1 Coverage Results" MODIFIED="1592642793669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$8Demo4.coverage" NAME="8Demo4 Coverage Results" MODIFIED="1592578236344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$6Demo2.coverage" NAME="6Demo2 Coverage Results" MODIFIED="1592554625216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
-    <SUITE FILE_PATH="coverage/PyDemo$Demo2__1_.coverage" NAME="Demo2 (1) Coverage Results" MODIFIED="1593356630235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/6" />
-    <SUITE FILE_PATH="coverage/PyDemo$Demo2.coverage" NAME="Demo2 Coverage Results" MODIFIED="1593830156633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/8" />
+    <SUITE FILE_PATH="coverage/PyDemo$Demo2__1_.coverage" NAME="Demo2 (1) Coverage Results" MODIFIED="1595127392329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/10" />
+    <SUITE FILE_PATH="coverage/PyDemo$Demo2.coverage" NAME="Demo2 Coverage Results" MODIFIED="1595124257488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/9" />
     <SUITE FILE_PATH="coverage/PyDemo$3Demo1.coverage" NAME="3Demo1 Coverage Results" MODIFIED="1592637116009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first" />
     <SUITE FILE_PATH="coverage/PyDemo$13Demo2.coverage" NAME="13Demo2 Coverage Results" MODIFIED="1592669584591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$9Demo9.coverage" NAME="9Demo9 Coverage Results" MODIFIED="1592637457553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
@@ -514,7 +513,7 @@
     <SUITE FILE_PATH="coverage/PyDemo$6Demo5.coverage" NAME="6Demo5 Coverage Results" MODIFIED="1592555817482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$7Demo1.coverage" NAME="7Demo1 Coverage Results" MODIFIED="1592568768175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$10Demo3.coverage" NAME="10Demo3 Coverage Results" MODIFIED="1592643405689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
-    <SUITE FILE_PATH="coverage/PyDemo$Demo3.coverage" NAME="Demo3 Coverage Results" MODIFIED="1593830958582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/8" />
+    <SUITE FILE_PATH="coverage/PyDemo$Demo3.coverage" NAME="Demo3 Coverage Results" MODIFIED="1595124217403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/9" />
     <SUITE FILE_PATH="coverage/PyDemo$10Demo8.coverage" NAME="10Demo8 Coverage Results" MODIFIED="1592645112946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$6Demo6.coverage" NAME="6Demo6 Coverage Results" MODIFIED="1592556302467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$8Demo3.coverage" NAME="8Demo3 Coverage Results" MODIFIED="1592578147169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
@@ -529,9 +528,9 @@
     <SUITE FILE_PATH="coverage/PyDemo$11Demo2.coverage" NAME="11Demo2 Coverage Results" MODIFIED="1592657366409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$12Demo1.coverage" NAME="12Demo1 Coverage Results" MODIFIED="1592666240580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$11Demo5.coverage" NAME="11Demo5 Coverage Results" MODIFIED="1592661919793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
-    <SUITE FILE_PATH="coverage/PyDemo$Demo1__1_.coverage" NAME="Demo1 (1) Coverage Results" MODIFIED="1592986259689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/three/16" />
+    <SUITE FILE_PATH="coverage/PyDemo$Demo1__1_.coverage" NAME="Demo1 (1) Coverage Results" MODIFIED="1594552408061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second/demo" />
     <SUITE FILE_PATH="coverage/PyDemo$9Demo6.coverage" NAME="9Demo6 Coverage Results" MODIFIED="1592635332291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
-    <SUITE FILE_PATH="coverage/PyDemo$Demo1.coverage" NAME="Demo1 Coverage Results" MODIFIED="1593830006571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/8" />
+    <SUITE FILE_PATH="coverage/PyDemo$Demo1.coverage" NAME="Demo1 Coverage Results" MODIFIED="1595122050280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/9" />
     <SUITE FILE_PATH="coverage/PyDemo$5Demo1.coverage" NAME="5Demo1 Coverage Results" MODIFIED="1592549807926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$Demo7.coverage" NAME="Demo7 Coverage Results" MODIFIED="1592983692201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/three/14" />
     <SUITE FILE_PATH="coverage/PyDemo$12Demo3.coverage" NAME="12Demo3 Coverage Results" MODIFIED="1592666693534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
@@ -543,7 +542,7 @@
     <SUITE FILE_PATH="coverage/PyDemo$3Demo5.coverage" NAME="3Demo5 Coverage Results" MODIFIED="1592540438411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
     <SUITE FILE_PATH="coverage/PyDemo$Demo2__2_.coverage" NAME="Demo2 (2) Coverage Results" MODIFIED="1593827776577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/7" />
     <SUITE FILE_PATH="coverage/PyDemo$10Demo5.coverage" NAME="10Demo5 Coverage Results" MODIFIED="1592643550275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
-    <SUITE FILE_PATH="coverage/PyDemo$Demo1__2_.coverage" NAME="Demo1 (2) Coverage Results" MODIFIED="1593354178430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/4" />
+    <SUITE FILE_PATH="coverage/PyDemo$Demo1__2_.coverage" NAME="Demo1 (2) Coverage Results" MODIFIED="1595127356852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/first/10" />
     <SUITE FILE_PATH="coverage/PyDemo$Demo6.coverage" NAME="Demo6 Coverage Results" MODIFIED="1592983585993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/three/14" />
     <SUITE FILE_PATH="coverage/PyDemo$11Demo1.coverage" NAME="11Demo1 Coverage Results" MODIFIED="1592657024490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaike/second" />
   </component>
