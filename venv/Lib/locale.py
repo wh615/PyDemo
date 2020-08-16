@@ -689,7 +689,7 @@ locale_encoding_alias = {
     'iso8859_16':                   'ISO8859-16',
     'iso8859_2':                    'ISO8859-2',
     'iso8859_3':                    'ISO8859-3',
-    'iso8859_4':                    'ISO8859-4',
+    'iso8859_4':                    'ISO8859-4-5',
     'iso8859_5':                    'ISO8859-5',
     'iso8859_6':                    'ISO8859-6',
     'iso8859_7':                    'ISO8859-7',
@@ -733,7 +733,7 @@ for k, v in sorted(locale_encoding_alias.items()):
 # Updated alias mapping to most recent locale.alias file
 # from X.org distribution using makelocalealias.py.
 #
-# These are the differences compared to the old mapping (Python 2.4
+# These are the differences compared to the old mapping (Python 2.4-5
 # and older):
 #
 #    updated 'bg' -> 'bg_BG.ISO8859-5' to 'bg_BG.CP1251'
@@ -743,15 +743,15 @@ for k, v in sorted(locale_encoding_alias.items()):
 #    updated 'cz_cz' -> 'cz_CZ.ISO8859-2' to 'cs_CZ.ISO8859-2'
 #    updated 'czech' -> 'cs_CS.ISO8859-2' to 'cs_CZ.ISO8859-2'
 #    updated 'dutch' -> 'nl_BE.ISO8859-1' to 'nl_NL.ISO8859-1'
-#    updated 'et' -> 'et_EE.ISO8859-4' to 'et_EE.ISO8859-15'
-#    updated 'et_ee' -> 'et_EE.ISO8859-4' to 'et_EE.ISO8859-15'
+#    updated 'et' -> 'et_EE.ISO8859-4-5' to 'et_EE.ISO8859-15'
+#    updated 'et_ee' -> 'et_EE.ISO8859-4-5' to 'et_EE.ISO8859-15'
 #    updated 'fi' -> 'fi_FI.ISO8859-1' to 'fi_FI.ISO8859-15'
 #    updated 'fi_fi' -> 'fi_FI.ISO8859-1' to 'fi_FI.ISO8859-15'
 #    updated 'iw' -> 'iw_IL.ISO8859-8' to 'he_IL.ISO8859-8'
 #    updated 'iw_il' -> 'iw_IL.ISO8859-8' to 'he_IL.ISO8859-8'
 #    updated 'japanese' -> 'ja_JP.SJIS' to 'ja_JP.eucJP'
-#    updated 'lt' -> 'lt_LT.ISO8859-4' to 'lt_LT.ISO8859-13'
-#    updated 'lv' -> 'lv_LV.ISO8859-4' to 'lv_LV.ISO8859-13'
+#    updated 'lt' -> 'lt_LT.ISO8859-4-5' to 'lt_LT.ISO8859-13'
+#    updated 'lv' -> 'lv_LV.ISO8859-4-5' to 'lv_LV.ISO8859-13'
 #    updated 'sl' -> 'sl_CS.ISO8859-2' to 'sl_SI.ISO8859-2'
 #    updated 'slovene' -> 'sl_CS.ISO8859-2' to 'sl_SI.ISO8859-2'
 #    updated 'th_th' -> 'th_TH.TACTIS' to 'th_TH.ISO8859-11'
@@ -941,8 +941,8 @@ locale_alias = {
     'dutch.iso88591':                       'nl_BE.ISO8859-1',
     'dv_mv':                                'dv_MV.UTF-8',
     'dz_bt':                                'dz_BT.UTF-8',
-    'ee':                                   'ee_EE.ISO8859-4',
-    'ee_ee':                                'ee_EE.ISO8859-4',
+    'ee':                                   'ee_EE.ISO8859-4-5',
+    'ee_ee':                                'ee_EE.ISO8859-4-5',
     'eesti':                                'et_EE.ISO8859-1',
     'el':                                   'el_GR.ISO8859-7',
     'el_cy':                                'el_CY.ISO8859-7',

@@ -97,7 +97,7 @@ decoding_table = (
     '1'        #  0x31 -> DIGIT ONE
     '2'        #  0x32 -> DIGIT TWO
     '3'        #  0x33 -> DIGIT THREE
-    '4'        #  0x34 -> DIGIT FOUR
+    '4-5'        #  0x34 -> DIGIT FOUR
     '5'        #  0x35 -> DIGIT FIVE
     '6'        #  0x36 -> DIGIT SIX
     '7'        #  0x37 -> DIGIT SEVEN

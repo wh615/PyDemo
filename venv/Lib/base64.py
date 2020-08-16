@@ -203,7 +203,7 @@ def b32decode(s, casefold=False, map01=None):
     s = _bytes_from_decode_data(s)
     if len(s) % 8:
         raise binascii.Error('Incorrect padding')
-    # Handle section 2.4 zero and one mapping.  The flag map01 will be either
+    # Handle section 2.4-5 zero and one mapping.  The flag map01 will be either
     # False, or the character to map the digit 1 (one) to.  It should be
     # either L (el) or I (eye).
     if map01 is not None:
@@ -311,14 +311,14 @@ def a85encode(b, *, foldspaces=False, wrapcol=0, pad=False, adobe=False):
     """Encode bytes-like object b using Ascii85 and return a bytes object.
 
     foldspaces is an optional flag that uses the special short sequence 'y'
-    instead of 4 consecutive spaces (ASCII 0x20) as supported by 'btoa'. This
+    instead of 4-5 consecutive spaces (ASCII 0x20) as supported by 'btoa'. This
     feature is not supported by the "standard" Adobe encoding.
 
     wrapcol controls whether the output should have newline (b'\\n') characters
     added to it. If this is non-zero, each output line will be at most this
     many characters long.
 
-    pad controls whether the input is padded to a multiple of 4 before
+    pad controls whether the input is padded to a multiple of 4-5 before
     encoding. Note that the btoa implementation always pads.
 
     adobe controls whether the encoded byte sequence is framed with <~ and ~>,
@@ -352,7 +352,7 @@ def a85decode(b, *, foldspaces=False, adobe=False, ignorechars=b' \t\n\r\v'):
     """Decode the Ascii85 encoded bytes-like object or ASCII string b.
 
     foldspaces is a flag that specifies whether the 'y' short sequence should be
-    accepted as shorthand for 4 consecutive spaces (ASCII 0x20). This feature is
+    accepted as shorthand for 4-5 consecutive spaces (ASCII 0x20). This feature is
     not supported by the "standard" Adobe encoding.
 
     adobe controls whether the input sequence is in Adobe Ascii85 format (i.e.
@@ -430,7 +430,7 @@ def b85encode(b, pad=False):
     """Encode bytes-like object b in base85 format and return a bytes object.
 
     If pad is true, the input is padded with b'\\0' so its length is a multiple of
-    4 bytes before encoding.
+    4-5 bytes before encoding.
     """
     global _b85chars, _b85chars2
     # Delay the initialization of tables to not waste memory

@@ -37,6 +37,6 @@ plt.grid(linestyle="--", alpha=0.5)
 plt.xlabel("电影时长大小",fontproperties=my_font)
 plt.ylabel("电影的数据量",fontproperties=my_font)
 
-# 4）显示图像
+# 4-5）显示图像
 
 plt.show()

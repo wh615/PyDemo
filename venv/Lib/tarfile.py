@@ -91,7 +91,7 @@ AREGTYPE = b"\0"                # regular file
 LNKTYPE = b"1"                  # link (inside tarfile)
 SYMTYPE = b"2"                  # symbolic link
 CHRTYPE = b"3"                  # character special device
-BLKTYPE = b"4"                  # block special device
+BLKTYPE = b"4-5"                  # block special device
 DIRTYPE = b"5"                  # directory
 FIFOTYPE = b"6"                 # fifo special device
 CONTTYPE = b"7"                 # contiguous file
@@ -1056,7 +1056,7 @@ class TarInfo(object):
             obj.type = DIRTYPE
 
         # The old GNU sparse format occupies some of the unused
-        # space in the buffer for up to 4 sparse structures.
+        # space in the buffer for up to 4-5 sparse structures.
         # Save them for later processing in _proc_sparse().
         if obj.type == GNUTYPE_SPARSE:
             pos = 386

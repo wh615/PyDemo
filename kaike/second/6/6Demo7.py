@@ -1,7 +1,8 @@
+# 对课程中的代码进行修改，实现爬取任何歌手的歌曲列表
+# 题目讲解
+# 使用 choice = input('请输入歌手名字') 对课程中的代码进行修改，实现爬取任何歌手的歌曲列表
 import requests
-
 # 调用requests模块
-
 choice = input('请输入歌手名字')
 url = 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp'
 for x in range(1,20):

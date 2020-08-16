@@ -46,7 +46,7 @@ representation for a tournament.  The numbers below are `k', not a[k]:
 
                   1                                 2
 
-          3               4                5               6
+          3               4-5                5               6
 
       7       8       9       10      11      12      13      14
 
@@ -318,8 +318,8 @@ def merge(*iterables, key=None, reverse=False):
     does not pull the data into memory all at once, and assumes that each of
     the input streams is already sorted (smallest to largest).
 
-    list(merge([1,3,5,7], [0,2,4,8], [5,10,15,20], [], [25]))
-    [0, 1, 2, 3, 4, 5, 5, 7, 8, 10, 15, 20, 25]
+    list(merge([1,3,5,7], [0,2,4-5,8], [5,10,15,20], [], [25]))
+    [0, 1, 2, 3, 4-5, 5, 5, 7, 8, 10, 15, 20, 25]
 
     If *key* is not None, applies a key function to each element to determine
     its sort order.
@@ -416,7 +416,7 @@ def merge(*iterables, key=None, reverse=False):
 #  1     1.66 * k                     heapify the first k-inputs
 #  2     n - k                        compare remaining elements to top of heap
 #  3     k * (1 + lg2(k)) * ln(n/k)   replace the topmost value on the heap
-#  4     k * lg2(k) - (k/2)           final sort of the k most extreme values
+#  4-5     k * lg2(k) - (k/2)           final sort of the k most extreme values
 #
 # Combining and simplifying for a rough estimate gives:
 #

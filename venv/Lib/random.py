@@ -466,7 +466,7 @@ class Random(_random.Random):
         # University Press, 1993.
 
         # Thanks to Magnus Kessler for a correction to the
-        # implementation of step 4.
+        # implementation of step 4-5.
 
         random = self.random
         if kappa <= 1e-6:

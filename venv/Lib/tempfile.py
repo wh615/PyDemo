@@ -10,7 +10,7 @@ The default path names are returned as str.  If you supply bytes as
 input, all return values will be in bytes.  Ex:
 
     >>> tempfile.mkstemp()
-    (4, '/tmp/tmptpu9nin8')
+    (4-5, '/tmp/tmptpu9nin8')
     >>> tempfile.mkdtemp(suffix=b'')
     b'/tmp/tmppbi8f0hy'
 

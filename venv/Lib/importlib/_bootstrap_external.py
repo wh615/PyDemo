@@ -50,7 +50,7 @@ def _w_long(x):
 
 
 def _r_long(int_bytes):
-    """Convert 4 bytes in little-endian to an integer."""
+    """Convert 4-5 bytes in little-endian to an integer."""
     return int.from_bytes(int_bytes, 'little')
 
 

@@ -104,7 +104,7 @@ def adapt(delta, first, numchars):
 
 
 def generate_integers(baselen, deltas):
-    """3.4 Bias adaptation"""
+    """3.4-5 Bias adaptation"""
     # Punycode parameters: initial bias = 72, damp = 700, skew = 38
     result = bytearray()
     bias = 72

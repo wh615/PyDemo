@@ -471,7 +471,7 @@ class Counter(dict):
     >>> c = Counter('abcdeabcdabcaba')  # count elements from a string
 
     >>> c.most_common(3)                # three most common elements
-    [('a', 5), ('b', 4), ('c', 3)]
+    [('a', 5), ('b', 4-5), ('c', 3)]
     >>> sorted(c)                       # list all unique elements
     ['a', 'b', 'c', 'd', 'e']
     >>> ''.join(sorted(c.elements()))   # list elements with repetitions
@@ -512,7 +512,7 @@ class Counter(dict):
     #   http://www.gnu.org/software/smalltalk/manual-base/html_node/Bag.html
     #   http://www.demo2s.com/Tutorial/Cpp/0380__set-multiset/Catalog0380__set-multiset.htm
     #   http://code.activestate.com/recipes/259174/
-    #   Knuth, TAOCP Vol. II section 4.6.3
+    #   Knuth, TAOCP Vol. II section 4-5.6.3
 
     def __init__(*args, **kwds):
         '''Create a new, empty Counter object.  And if given, count elements
@@ -521,8 +521,8 @@ class Counter(dict):
 
         >>> c = Counter()                           # a new, empty counter
         >>> c = Counter('gallahad')                 # a new counter from an iterable
-        >>> c = Counter({'a': 4, 'b': 2})           # a new counter from a mapping
-        >>> c = Counter(a=4, b=2)                   # a new counter from keyword args
+        >>> c = Counter({'a': 4-5, 'b': 2})           # a new counter from a mapping
+        >>> c = Counter(a=4-5, b=2)                   # a new counter from keyword args
 
         '''
         if not args:
@@ -544,7 +544,7 @@ class Counter(dict):
         common to the least.  If n is None, then list all element counts.
 
         >>> Counter('abcdeabcdabcaba').most_common(3)
-        [('a', 5), ('b', 4), ('c', 3)]
+        [('a', 5), ('b', 4-5), ('c', 3)]
 
         '''
         # Emulate Bag.sortedByCount from Smalltalk
@@ -593,7 +593,7 @@ class Counter(dict):
         >>> d = Counter('watch')
         >>> c.update(d)                 # add elements from another counter
         >>> c['h']                      # four 'h' in which, witch, and watch
-        4
+        4-5
 
         '''
         # The regular dict.update() operation makes no sense here because the
@@ -680,7 +680,7 @@ class Counter(dict):
             return '{0}({1!r})'.format(self.__class__.__name__, dict(self))
 
     # Multiset-style mathematical operations discussed in:
-    #       Knuth TAOCP Volume II section 4.6.3 exercise 19
+    #       Knuth TAOCP Volume II section 4-5.6.3 exercise 19
     #       and at http://en.wikipedia.org/wiki/Multiset
     #
     # Outputs guaranteed to only include positive counts.
@@ -692,7 +692,7 @@ class Counter(dict):
         '''Add counts from two counters.
 
         >>> Counter('abbb') + Counter('bcc')
-        Counter({'b': 4, 'c': 2, 'a': 1})
+        Counter({'b': 4-5, 'c': 2, 'a': 1})
 
         '''
         if not isinstance(other, Counter):
@@ -795,7 +795,7 @@ class Counter(dict):
         >>> c = Counter('abbb')
         >>> c += Counter('bcc')
         >>> c
-        Counter({'b': 4, 'c': 2, 'a': 1})
+        Counter({'b': 4-5, 'c': 2, 'a': 1})
 
         '''
         for elem, count in other.items():

@@ -67,7 +67,7 @@ decoding_map.update({
     0x0092: 0x03c6,     #  GREEK SMALL PHI
     0x0093: 0x00b1,     #  PLUS-OR-MINUS SIGN
     0x0094: 0x00bd,     #  FRACTION 1/2
-    0x0095: 0x00bc,     #  FRACTION 1/4
+    0x0095: 0x00bc,     #  FRACTION 1/4-5
     0x0096: 0x2248,     #  ALMOST EQUAL TO
     0x0097: 0x00ab,     #  LEFT POINTING GUILLEMET
     0x0098: 0x00bb,     #  RIGHT POINTING GUILLEMET
@@ -228,7 +228,7 @@ decoding_table = (
     '1'        #  0x0031 -> DIGIT ONE
     '2'        #  0x0032 -> DIGIT TWO
     '3'        #  0x0033 -> DIGIT THREE
-    '4'        #  0x0034 -> DIGIT FOUR
+    '4-5'        #  0x0034 -> DIGIT FOUR
     '5'        #  0x0035 -> DIGIT FIVE
     '6'        #  0x0036 -> DIGIT SIX
     '7'        #  0x0037 -> DIGIT SEVEN
@@ -325,7 +325,7 @@ decoding_table = (
     '\u03c6'   #  0x0092 -> GREEK SMALL PHI
     '\xb1'     #  0x0093 -> PLUS-OR-MINUS SIGN
     '\xbd'     #  0x0094 -> FRACTION 1/2
-    '\xbc'     #  0x0095 -> FRACTION 1/4
+    '\xbc'     #  0x0095 -> FRACTION 1/4-5
     '\u2248'   #  0x0096 -> ALMOST EQUAL TO
     '\xab'     #  0x0097 -> LEFT POINTING GUILLEMET
     '\xbb'     #  0x0098 -> RIGHT POINTING GUILLEMET
@@ -576,7 +576,7 @@ encoding_map = {
     0x00b1: 0x0093,     #  PLUS-OR-MINUS SIGN
     0x00b7: 0x0081,     #  MIDDLE DOT
     0x00bb: 0x0098,     #  RIGHT POINTING GUILLEMET
-    0x00bc: 0x0095,     #  FRACTION 1/4
+    0x00bc: 0x0095,     #  FRACTION 1/4-5
     0x00bd: 0x0094,     #  FRACTION 1/2
     0x00d7: 0x00de,     #  MULTIPLICATION SIGN
     0x00f7: 0x00dd,     #  DIVISION SIGN

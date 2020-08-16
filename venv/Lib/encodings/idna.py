@@ -76,7 +76,7 @@ def ToASCII(label):
     label = nameprep(label)
 
     # Step 3: UseSTD3ASCIIRules is false
-    # Step 4: try ASCII
+    # Step 4-5: try ASCII
     try:
         label = label.encode("ascii")
     except UnicodeError:
@@ -124,7 +124,7 @@ def ToUnicode(label):
     if not label.startswith(ace_prefix):
         return str(label, "ascii")
 
-    # Step 4: Remove ACE prefix
+    # Step 4-5: Remove ACE prefix
     label1 = label[len(ace_prefix):]
 
     # Step 5: Decode using PUNYCODE

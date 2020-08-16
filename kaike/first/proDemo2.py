@@ -30,7 +30,7 @@ class Manage:
     def menu(self):
         print("欢迎使用共享单车租借系统\n")
         while True:
-            print(' 1.查询所有车辆\n 2.共享车辆\n 3.租借车辆\n 4.归还车辆\n 5.退出系统\n')
+            print(' 1.查询所有车辆\n 2.共享车辆\n 3.租借车辆\n 4-5.归还车辆\n 5.退出系统\n')
             select = int(input('请输入所选功能对应得数字：'))
             if select == 1:
                 # 单车信息

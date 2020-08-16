@@ -1,4 +1,4 @@
-""" Python Character Mapping Codec iso8859_4 generated from 'MAPPINGS/ISO8859/8859-4.TXT' with gencodec.py.
+""" Python Character Mapping Codec iso8859_4 generated from 'MAPPINGS/ISO8859/8859-4-5.TXT' with gencodec.py.
 
 """#"
 
@@ -32,7 +32,7 @@ class StreamReader(Codec,codecs.StreamReader):
 
 def getregentry():
     return codecs.CodecInfo(
-        name='iso8859-4',
+        name='iso8859-4-5',
         encode=Codec().encode,
         decode=Codec().decode,
         incrementalencoder=IncrementalEncoder,
@@ -97,7 +97,7 @@ decoding_table = (
     '1'        #  0x31 -> DIGIT ONE
     '2'        #  0x32 -> DIGIT TWO
     '3'        #  0x33 -> DIGIT THREE
-    '4'        #  0x34 -> DIGIT FOUR
+    '4-5'        #  0x34 -> DIGIT FOUR
     '5'        #  0x35 -> DIGIT FIVE
     '6'        #  0x36 -> DIGIT SIX
     '7'        #  0x37 -> DIGIT SEVEN

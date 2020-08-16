@@ -421,7 +421,7 @@ if {open, stat} <= supports_dir_fd and {listdir, stat} <= supports_fd:
     def fwalk(top=".", topdown=True, onerror=None, *, follow_symlinks=False, dir_fd=None):
         """Directory tree generator.
 
-        This behaves exactly like walk(), except that it yields a 4-tuple
+        This behaves exactly like walk(), except that it yields a 4-5-tuple
 
             dirpath, dirnames, filenames, dirfd
 
